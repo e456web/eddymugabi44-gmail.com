@@ -1,129 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - Finova</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="assets/logo.png" alt="Finova Logo">
-                <h1>Finova</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li class="active"><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1>East Africa Adventures</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="page-header">
-        <div class="container">
-            <h1>Our Gallery</h1>
-            <p>See Finova in action through our product screenshots and event photos</p>
-        </div>
-    </section>
+  <!-- Gallery Page -->
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://plus.unsplash.com/premium_photo-1661964149725-fbf14eabd38c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trip to Greece" />
+      <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?q=80&w=2984&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trip to Japan" />
+      <img src="https://plus.unsplash.com/premium_photo-1661826792893-5b300391d34f?q=80&w=989&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trip to Africa" />
+      <video controls>
+        <source src="https://video-previews.elements.envatousercontent.com/files/45a97e23-cbc0-434e-92e6-65582f6513e6/video_preview_h264.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
 
-    <section id="gallery">
-        <div class="container">
-            
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="assets/service1.jpg" alt="Digital Banking App">
-                    <div class="overlay">
-                        <h3>Mobile Banking Interface</h3>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="assets/service2.jpg" alt="Analytics Dashboard">
-                    <div class="overlay">
-                        <h3>Financial Analytics</h3>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="events">
-                    <img src="assets/service3.jpg" alt="FinTech Conference">
-                    <div class="overlay">
-                        <h3>FinTech Conference 2023</h3>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="team">
-                    <img src="assets/service1.jpg" alt="Team Workshop">
-                    <div class="overlay">
-                        <h3>Product Development Workshop</h3>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="assets/service2.jpg" alt="Payment Processing">
-                    <div class="overlay">
-                        <h3>Payment Gateway</h3>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="events">
-                    <img src="assets/service3.jpg" alt="Award Ceremony">
-                    <div class="overlay">
-                        <h3>Innovation Award 2022</h3>
-                    </div>
-                </div>
-                <div class="gallery-item" data-category="team">
-                    <img src="assets/service1.jpg" alt="Office Space">
-                    <div class="overlay">
-                        <h3>Our Headquarters</h3>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="assets/service2.jpg" alt="Investment Platform">
-                    <div class="overlay">
-                        <h3>Wealth Management</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 East Africa Adventures | Follow us:
+      <a href="#">Facebook</a> | <a href="#">Instagram</a>
+    </p>
+  </footer>
 
-    <section class="video-section">
-        <div class="container">
-            <h2>See Our Platform in Action</h2>
-            <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-EoNrg_DR3s?si=dHuf82IO0lfLpnK-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="footer-col">
-                <h3>Finova</h3>
-                <p>Innovative financial solutions for the digital age.</p>
-            </div>
-            <div class="footer-col">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h3>Connect</h3>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <p>&copy; 2023 Finova. All rights reserved.</p>
-        </div>
-    </footer>
+  
 </body>
 </html>
