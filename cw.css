@@ -1,0 +1,104 @@
+
+    body{
+      font-family: arial;
+      margin: 0;
+      padding: 0;
+      background-color:lightgoldenrodyellow;
+      color: black;
+      font-size:large;
+    }
+
+    header {
+      background-color: forestgreen;
+      color:white;
+      text-align:center;
+      padding: 40px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      font-size:large;
+      direction: inherit;
+
+    }
+
+    header h1 {
+      font-size: 70px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px  darkslategrey;
+      text-align:center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: darkgray;
+      font-size: 30px;
+      border-bottom: 2px solid darkgray;
+      padding-bottom: 5px;
+      text-align: center;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+  
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 19px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 250px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    form input, form textarea {
+      width: 70%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 20px;
+      border: 1px lightgray;
+      border-radius: 4px;
+    }
+
+    .first{
+  background-color: green;
+  color: white;
+}
+
+.second{
+  background-color: red;
+  color: white;
+}
+
+    footer {
+      background-color: forestgreen;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
